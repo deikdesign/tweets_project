@@ -1,0 +1,18 @@
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+
+  get "about-us", to: "about#index"
+
+  # end
+  
+
+  root  to: "main#index"
+
+  # end
+
+
+
+  #For details on the DSL available within this file guide.rubyonrails.org/routing.html
+
+end
